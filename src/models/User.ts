@@ -7,7 +7,7 @@ import mongoose, { Schema, Document, Model } from 'mongoose';
  */
 export interface Iuser extends Document {
     name: string;
-    email: string; // ⚠️ typo → should be "email"
+    email: string; // 
     passwordHash: string;
     updatedAt: Date;
     createdAt: Date;

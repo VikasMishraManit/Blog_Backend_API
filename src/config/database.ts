@@ -11,8 +11,7 @@ export const connectDB = async() : Promise<void> =>{
         return;
     }
 
-    const MONGOURI = process.env.MONGODB_URL;
-
+    const MONGOURI = process.env.MONGODB_URI;
     if(!MONGOURI){
         throw new Error(
             "MongoDB connection string is not defined in environment variables."
