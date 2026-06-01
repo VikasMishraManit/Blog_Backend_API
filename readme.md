@@ -195,4 +195,3 @@ Multer is configured with disk storage under `process.cwd()/uploads/`. The `uplo
 - CORS is enabled with default settings, so any origin can hit the API. Tighten this in production.
 - Error responses are intentionally generic on the client side (e.g. `Failed to create blog`) while the real error is logged on the server. Don't rely on the response body for debugging.
 
-ct.
